@@ -157,15 +157,15 @@ html {
     color: #fff;
 }
 
-.menu .social-network {
+section .social-network {
     margin-top: 60px;
 }
 
-.menu .social-network ul li {
+section .social-network ul li {
     margin: 0 3px;
 }
 
-.menu .social-network ul li a {
+section .social-network ul li a {
     width: 40px;
     height: 40px;
     display: inline-block;
@@ -177,9 +177,13 @@ html {
     transition: all 0.5s;
 }
 
-.menu .social-network ul li a:hover {
+section .social-network ul li a:hover {
     background-color: #fff;
     color: #a43f49;
+}
+
+.contact-me .social-network {
+    margin-top: 0 !important;
 }
 
 .menu .copyright-text {
