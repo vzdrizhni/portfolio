@@ -339,7 +339,12 @@
           <div class="row">
             <div class="right-content">
               <div class="container">
-                <form id="contact" action="https://script.google.com/macros/s/AKfycbwQqxFWigNEOVD8QV8cPbA2jHrI8pyTo3bwT7Y5-A/exec" method="POST" data-email="from_email@example.com">
+                <form id="contact" action="https://script.google.com/macros/s/AKfycbwQqxFWigNEOVD8QV8cPbA2jHrI8pyTo3bwT7Y5-A/exec" method="POST" class="gform">
+                  <div style="display:none" class="thankyou_message">
+                    <!-- You can customize the thankyou message by editing the code below -->
+                    <h2><em>Thanks</em> for contacting us! We will get back to you soon!
+                    </h2>
+                   </div>
                   <div class="row">
                     <div class="col-md-6">
                       <fieldset>
@@ -394,9 +399,9 @@
                         <button type="submit" id="form-submit" class="button">
                           Send Message
                         </button>
-                      </fieldset>
+                      </fieldset>                      
                     </div>
-                  </div>
+                  </div>                  
                 </form>
               </div>
             </div>
@@ -404,6 +409,11 @@
         </div>
       </section>
     </div>
+
+    
+
+
+    <script data-cfasync="false" type="text/javascript" src="./assets/js/form-submission-handler.js"></script>
 
     <!-- Scripts -->
     <!-- Bootstrap core JavaScript -->
