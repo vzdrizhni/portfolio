@@ -581,6 +581,7 @@ section.my-work .section-heading {
 .img-wrapper1 a {
     display: flex;
     justify-content: center;
+    margin: 2px;
 }
 
 .isotope-item h2 {
