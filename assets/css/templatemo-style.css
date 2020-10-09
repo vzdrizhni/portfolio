@@ -557,6 +557,32 @@ section.my-work .section-heading {
     border-radius: 5px;
 }
 
+.project-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.link-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-wrapper1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-wrapper1 a {
+    display: flex;
+    justify-content: center;
+}
+
 .isotope-item .project-info img {
     height: 70px;
     width: 70px;
