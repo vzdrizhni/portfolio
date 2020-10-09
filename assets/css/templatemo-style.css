@@ -583,6 +583,22 @@ section.my-work .section-heading {
     justify-content: center;
 }
 
+.isotope-item h2 {
+    font-family: 'Anton', sans-serif;
+}
+
+p {
+    font-family: 'Questrial', sans-serif;
+}
+
+.section-heading span {
+    font-family: 'Questrial', sans-serif;
+}
+
+.link-wrapper {
+    font-family: 'Anton', sans-serif;
+}
+
 .isotope-item .project-info img {
     height: 70px;
     width: 70px;
