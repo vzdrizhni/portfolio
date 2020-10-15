@@ -591,8 +591,17 @@ section.my-work .section-heading {
 
 .img-wrapper1 a {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin: 2px;
+}
+
+.img-wrapper1 a p {
+    display: flex;
+    justify-content: center;
+    color: #007bff;
+    font-family: 'Anton', sans-serif;
+    font-weight: 500;
 }
 
 .isotope-item h2 {
