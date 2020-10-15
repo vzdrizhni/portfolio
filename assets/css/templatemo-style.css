@@ -722,6 +722,10 @@ section.contact-me {
     text-align: center;
 }
 
+.thankyou_message {
+    font-family: 'Questrial', sans-serif;
+}
+
 @media screen and (max-width: 1680px) {
     .menu {
         left: 5%;
