@@ -408,8 +408,8 @@ button:hover {
 }
 
 .skill-icon {
-    /* width: 70px !important; */
-    /* height: 70px; */
+    width: 70px !important;
+    height: 70px;
     /* width: 180px; */
     display: flex;
     flex-direction: column;
@@ -926,5 +926,25 @@ section.contact-me {
     .row-service {
         display: grid;
         grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .img-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .built-with h6 {
+        margin-bottom: 0;
+        margin-top: 15px;
+    }
+
+    .isotope-box {
+        height: auto !important;
+    }
+
+    .service-item {
+        padding: 10px;
     }
 }
