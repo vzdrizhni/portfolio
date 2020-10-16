@@ -398,12 +398,52 @@ button:hover {
 
 .skill-wrapper {
     display: flex;
+    align-items: center;
+}
+
+.skill-wrapper2 {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
 }
 
 .skill-icon {
-    width: 70px !important;
-    height: 70px;
-    width: 180px;    
+    /* width: 70px !important; */
+    /* height: 70px; */
+    /* width: 180px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-icon2 {
+    /* width: 70px !important; */
+    /* height: 70px; */
+    /* width: 180px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.built-with {
+    padding-bottom: 10px;
+}
+
+.built-with h6 {
+    font-weight: 600;
+}
+
+.ruby {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ruby p {
+    margin-bottom: 0;
+    color: #007bff;
+    font-family: 'Anton', sans-serif;
+    font-weight: 500;
 }
 
 .skill-icon img {
@@ -577,6 +617,7 @@ section.my-work .section-heading {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 .link-wrapper {
@@ -596,12 +637,17 @@ section.my-work .section-heading {
     margin: 2px;
 }
 
+.img-wrapper1 a:hover {
+    opacity: 0.8;
+}
+
 .img-wrapper1 a p {
     display: flex;
     justify-content: center;
     color: #007bff;
     font-family: 'Anton', sans-serif;
     font-weight: 500;
+    margin-bottom: 0;
 }
 
 .isotope-item h2 {
