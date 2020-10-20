@@ -571,6 +571,7 @@ section.my-work .section-heading {
     display: flex !important;
     position: static !important;
     flex-direction: column;
+    height: auto !important;
 }
 
 .isotope-toolbar {
